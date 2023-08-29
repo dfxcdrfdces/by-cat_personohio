@@ -9,7 +9,6 @@ Achievements.Get = function(data)
 		v1.Info.KnobBonus.Text = data.KnobBonus
 		game.Players.LocalPlayer.PlayerGui.MainUI.LobbyFrame.CreateElevator.Modifiers.SHELLHELL.Text = data.Modifiers
 		v1.Locked.Background.Image = data.Image
-		local v2 = v1.Text == data.v2
 
 	end)
 
