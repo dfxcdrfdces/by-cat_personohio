@@ -1,7 +1,13 @@
-local here = loadstring(game:HttpGet("https://raw.githubusercontent.com/dfxcdrfdces/by-cat_personohio/main/doors.lua"))()
+--[[
 
-here.CustomDialogue({
- Image = "rbxassetid://14567452788",
- v1.Text = "brooo",
- KnobBonus.Text = "yooo",
-    })
+    NOTE: Keep in mind that these are "fake" achievements and will NOT give you an in-game badge.
+
+]]--
+
+local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/dfxcdrfdces/by-cat_personohio/main/lolidkwhyisnotwork.lua"))()
+
+-- Creates and displays your custom achievement
+Achievements.Get({
+    Image = "1",
+    
+})
